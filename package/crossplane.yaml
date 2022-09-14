@@ -1,0 +1,7 @@
+apiVersion: meta.pkg.crossplane.io/v1alpha1
+kind: Provider
+metadata:
+  name: provider-jet-github
+spec:
+  controller:
+    image: dhano6/provider-jet-github-controller:v1.2
